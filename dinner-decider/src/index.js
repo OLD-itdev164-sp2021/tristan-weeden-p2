@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 // import App from './pages/App';
-import RandomRecipe from './pages/RandomRecipie'
+import Main from './pages/Main'
 import reportWebVitals from './pages/reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RandomRecipe />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
