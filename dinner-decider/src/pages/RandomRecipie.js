@@ -100,7 +100,7 @@ const RandomRecipe = () => {
     <>
     { showList ? 
      <SavedBox>
-        {SavedRecipes.map((recipe) =>
+        {SavedRecipes.split(",").map((recipe) =>
           <>
           <CloseButton onClick={() => setShowList(false)}>X</CloseButton>
           <ul>
